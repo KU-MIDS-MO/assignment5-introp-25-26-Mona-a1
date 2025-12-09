@@ -34,7 +34,8 @@ Write a function `detect_turning_points(signal, filename="turning_points.pdf")` 
 
 Write a function `approx_real_root(coeffs, interval)` that:
 
-- receives a list `coeffs` of four numbers representing a cubic polynomial,starting with the coefficient of the free term and finishing with the coefficient of x^3
+- receives a list `coeffs` of four numbers representing a cubic polynomial,
+  starting with the coefficient of the free term and finishing with the coefficient of x^3
 - receives a tuple `interval = (a, b)` with `a < b`,
 - assumes that **the polynomial has exactly one real root inside this interval**,
 - computes and returns a floating-point approximation of that root,
